@@ -27,8 +27,6 @@ open assets/index-dev.html
 
 Production(compile time 2min~)
 
-When you compile as optimizeJS, comment out `specs2` dependencies from `build.sbt`
-
 ```
 sbt optimizeJS
 open assets/index.html
